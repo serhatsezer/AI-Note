@@ -1,4 +1,7 @@
+const { boolean } = require("drizzle-orm/mysql-core");
+
 /** @type {import('next').NextConfig} */
+
 const nextConfig = {
   images: {
     domains: ["firebasestorage.googleapis.com"],
